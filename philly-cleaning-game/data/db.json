@@ -1,15 +1,17 @@
 {
     "player" : [
-
-
+        { "id": "?", "name": "human", "hp": 500, "attackDamage": 30, "defense": 20, "speed": 10 }
     ],
     
     "enemies": [
         { "id": 1, "name": "rat", "hp": 25, "attackDamage": 16, "defense": 5, "speed": 20},
         { "id": 2, "name": "boar", "hp": 105, "attackDamage": 31, "defense": 30, "speed": 10}
+    ],
+
+    "weapon" : [
+        { "id": 2, "name": "broom", "attackDamage": 30},
+        { "id": 2, "name": "sword", "attackDamage": 50}
     ]
-
-
 
  }
  
